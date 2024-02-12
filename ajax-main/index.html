@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>AJAX</title>
+</head>
+<body>
+  <button onclick="viewUsers()">View Users</button>
+   <table id="userTable">
+     <thead>
+       <tr>
+         <th>User_id</th>
+         <th>remarks</th>
+         <th>created_by</th>
+         <th>created_at</th>
+       </tr>
+     </thead>
+     <tbody id="userTableBody">
+     </tbody>
+   </table>
+   <h2>Add Users</h2>
+   <form id="addUserForm">
+    <div class="form-group">
+       <label for="nameInput">User_id<input type="number" id="nameInput" required></label>
+    </div>
+    <div class="form-group">
+       <label for="ageInput">remarks&nbsp;&nbsp;&nbsp;<input type="text" id="ageInput" required></label>
+    </div>
+    <div class="form-group">
+       <label for="stateInput">created_by&nbsp;<input type="text" id="stateInput" required></label>
+    </div>
+    <div class="form-group">
+       <label for="stateInput1">created_at&nbsp;<input type="date" id="stateInput1" required></label>
+    </div>
+ <br>
+     <br>
+     <button type="submit">Add User</button>
+     <br>
+   </form>
+   <script src="index.js"></script>
+</body>
+</html>

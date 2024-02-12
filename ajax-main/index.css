@@ -1,0 +1,56 @@
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+  }
+  button {
+    margin-bottom: 10px;
+    background-color:green;
+    color:white;
+  }
+  table {
+    width: 75%;
+    border-collapse: collapse;
+  }
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  table th {
+    background-color: #f2f2f2;
+  }
+  table td.actions {
+    text-align: center;
+  }
+  table td.actions button {
+    margin-right: 5px;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-left: 200px;
+  }
+  input[type="text"],
+  input[type="number"] {
+    width: 40%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-left: 50px;
+  }
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 380px;
+  }
+
+  button[type="submit"]:hover {
+    background-color:darkgreen;
+  }
